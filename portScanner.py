@@ -9,7 +9,7 @@ for port in ports:
     s = socket.socket()
    # Setting the timeout to one second
     s.settimeout(1)
-    # Ловим ошибки
+  
     try:
    
         s.connect((host, port))
